@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Raw source data are intentionally not versioned.
+data/raw/
+*.xls
+*.xlsx
+
+# Regenerated analysis output is compared against frozen authority.
+results/generated/
+
+# Local IDE/notebook artifacts
+.ipynb_checkpoints/
+.vscode/
+.idea/

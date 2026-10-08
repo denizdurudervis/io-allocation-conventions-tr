@@ -1,0 +1,210 @@
+{
+  "model": "capacity-constrained Leontief allocation with IIM-style inoperability metrics",
+  "formulation": "dimensionless: K y = z, 0<=y,z<=1, y_J<=1-d, q=1-y",
+  "baseline_objective": "equal-sector normalized final-demand coverage (normative, not neutral)",
+  "sensitivity_objective": "monetary-weighted coverage; same additive linear form, different weighting convention",
+  "framing": "best feasible allocations conditional on static domestic Leontief relations; not forecasts of realized rationing",
+  "supersedes": "v1 numerically invalid; v2 used bisection threshold and np.maximum(f0,1e-9)",
+  "d_feas_analytic": 0.2254438255448754,
+  "d_feas_definition": "maximum capacity loss at which full coverage of all non-D35 final demand remains feasible; NOT a universal cut-in threshold",
+  "D35_final_use": {
+    "household_pct": 98.48037844805471,
+    "exports_pct": 1.5196215519452938
+  },
+  "numerics": {
+    "K1_max_err": 3.135269821541442e-13,
+    "cond2_K": 76.94682976536181,
+    "rank_K": 64
+  },
+  "sampling_design": "independent multiplicative perturbation w_i = 1 + U(-p, p), numpy default_rng(seed=7), 300 trials per level",
+  "input_sha256": "572d4e0f3cb4288f62d0249e3d8514a61ec40e5888ea9ac323ca740c9ce2378e",
+  "max_output_reference": "max sum x0_i y_i on the same feasible set; shows the additive coverage objective does NOT minimise output loss",
+  "variants": [
+    {
+      "variant": "residual_final_use",
+      "d": 0.05,
+      "z_D35": 0.7782152611998023,
+      "mean_q": 0.001416720633251078,
+      "output_weighted_loss_pct": 0.32360085334431493,
+      "monetary_coverage": 0.9976933489506634,
+      "non_D35_sectors_below_full_coverage": 0,
+      "z_F_construction": null
+    },
+    {
+      "variant": "residual_final_use",
+      "d": 0.1,
+      "z_D35": 0.5564305222334798,
+      "mean_q": 0.0028334412234482347,
+      "output_weighted_loss_pct": 0.6472017017214096,
+      "monetary_coverage": 0.9953866979465175,
+      "non_D35_sectors_below_full_coverage": 0,
+      "z_F_construction": null
+    },
+    {
+      "variant": "residual_final_use",
+      "d": 0.2,
+      "z_D35": 0.11286104430102029,
+      "mean_q": 0.005666882403826002,
+      "output_weighted_loss_pct": 1.2944033984798582,
+      "monetary_coverage": 0.9907733959381803,
+      "non_D35_sectors_below_full_coverage": 0,
+      "z_F_construction": null
+    },
+    {
+      "variant": "household_floor_export_first",
+      "d": 0.05,
+      "z_D35": 0.9848037844812123,
+      "mean_q": 0.028110065853578094,
+      "output_weighted_loss_pct": 5.02265368498697,
+      "monetary_coverage": 0.958269792989007,
+      "non_D35_sectors_below_full_coverage": 1,
+      "z_F_construction": 0.6765125323191652
+    },
+    {
+      "variant": "household_floor_export_first",
+      "d": 0.1,
+      "z_D35": 0.9848037844800122,
+      "mean_q": 0.058183637791706835,
+      "output_weighted_loss_pct": 10.39095977204969,
+      "monetary_coverage": 0.9136396724660623,
+      "non_D35_sectors_below_full_coverage": 1,
+      "z_F_construction": 0.329230009363645
+    },
+    {
+      "variant": "household_floor_export_first",
+      "d": 0.2,
+      "z_D35": 0.9848037844805426,
+      "mean_q": 0.09553077028759827,
+      "output_weighted_loss_pct": 16.648116003832566,
+      "monetary_coverage": 0.859584453512118,
+      "non_D35_sectors_below_full_coverage": 2,
+      "z_F_construction": 0.0
+    }
+  ],
+  "weighting_convention": [
+    {
+      "variant": "residual",
+      "d": 0.05,
+      "max_abs_z_diff": 4.645173135031655e-12
+    },
+    {
+      "variant": "residual",
+      "d": 0.1,
+      "max_abs_z_diff": 2.0271784251235658e-11
+    },
+    {
+      "variant": "residual",
+      "d": 0.2,
+      "max_abs_z_diff": 9.192424599291371e-12
+    },
+    {
+      "variant": "household_floor",
+      "d": 0.05,
+      "max_abs_z_diff": 0.6812376282450772
+    },
+    {
+      "variant": "household_floor",
+      "d": 0.1,
+      "max_abs_z_diff": 1.0000000000007885
+    },
+    {
+      "variant": "household_floor",
+      "d": 0.2,
+      "max_abs_z_diff": 1.0000000000007772
+    }
+  ],
+  "local_perturbation": [
+    {
+      "perturbation": 0.01,
+      "n_trials": 300,
+      "shares": {
+        "F": 1.0
+      }
+    },
+    {
+      "perturbation": 0.05,
+      "n_trials": 300,
+      "shares": {
+        "F": 1.0
+      }
+    },
+    {
+      "perturbation": 0.1,
+      "n_trials": 300,
+      "shares": {
+        "F": 1.0
+      }
+    },
+    {
+      "perturbation": 0.3,
+      "n_trials": 300,
+      "shares": {
+        "F": 1.0
+      }
+    },
+    {
+      "perturbation": 0.6,
+      "n_trials": 300,
+      "shares": {
+        "F": 0.9933333333333333,
+        "C13-C15": 0.006666666666666667
+      }
+    }
+  ],
+  "comparator": [
+    {
+      "d": 0.05,
+      "objective": "additive_linear",
+      "sectors_below_full_coverage_all": 2,
+      "sectors_below_full_coverage_non_D35": 1,
+      "worst_off_z": 0.6765125323191652,
+      "output_weighted_loss_pct": 5.02265368498697,
+      "max_output_reference_loss_pct": 1.0563002985587415
+    },
+    {
+      "d": 0.05,
+      "objective": "lexicographic_maxmin",
+      "sectors_below_full_coverage_all": 63,
+      "sectors_below_full_coverage_non_D35": 62,
+      "worst_off_z": 0.9398699410825919,
+      "output_weighted_loss_pct": 5.945640204724791,
+      "max_output_reference_loss_pct": 1.0563002985587415
+    },
+    {
+      "d": 0.1,
+      "objective": "additive_linear",
+      "sectors_below_full_coverage_all": 2,
+      "sectors_below_full_coverage_non_D35": 1,
+      "worst_off_z": 0.329230009363645,
+      "output_weighted_loss_pct": 10.39095977204969,
+      "max_output_reference_loss_pct": 3.011455122402486
+    },
+    {
+      "d": 0.1,
+      "objective": "lexicographic_maxmin",
+      "sectors_below_full_coverage_all": 63,
+      "sectors_below_full_coverage_non_D35": 62,
+      "worst_off_z": 0.8753168439561085,
+      "output_weighted_loss_pct": 12.304825725335167,
+      "max_output_reference_loss_pct": 3.011455122402486
+    },
+    {
+      "d": 0.2,
+      "objective": "additive_linear",
+      "sectors_below_full_coverage_all": 3,
+      "sectors_below_full_coverage_non_D35": 2,
+      "worst_off_z": 0.0,
+      "output_weighted_loss_pct": 16.648116003832566,
+      "max_output_reference_loss_pct": 11.591033391024448
+    },
+    {
+      "d": 0.2,
+      "objective": "lexicographic_maxmin",
+      "sectors_below_full_coverage_all": 63,
+      "sectors_below_full_coverage_non_D35": 62,
+      "worst_off_z": 0.7462106497031423,
+      "output_weighted_loss_pct": 25.023196766553536,
+      "max_output_reference_loss_pct": 11.591033391024448
+    }
+  ]
+}

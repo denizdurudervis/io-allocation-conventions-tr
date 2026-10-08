@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the software repository and the final paper when available."
+title: "io-allocation-conventions-tr"
+type: software
+authors:
+  - family-names: "Derviş"
+    given-names: "Deniz Duru"
+version: "0.1.0"
+date-released: "2026-08-21"
+repository-code: "https://github.com/denizdurudervis/io-allocation-conventions-tr"
+keywords:
+  - input-output analysis
+  - linear programming
+  - capacity constraints
+  - allocation
+  - resilience
+  - Türkiye
+license: MIT

@@ -1,0 +1,65 @@
+rank_equal,sector_code,sector_name,r_MJ,monetary_weight,r_over_monetary_weight
+1,D35,"Elektrik, gaz, buhar ve iklimlendirme Electricity, gas, steam and air conditioning",0.22544382554487535,0.665625890025701,0.3386944962975682
+2,F,İnşaatlar ve inşaat işleri Constructions and construction works,0.14397499642368627,8.22479544664977,0.017504994179804438
+3,L68B,Gayrimenkul hizmetleri Real estate services excluding imputed rents,0.06836690322251834,0.977019250579962,0.0699749807201194
+4,C13-C15,"Tekstil, giyim eşyası, deri ve ilgili ürünler Textiles, wearing apparel, leather and related products",0.06058285360223462,2.885038613142581,0.0209989749621561
+5,C10-C12,"Gıda, içecekler ve tütün ürünleri Food, beverages and tobacco products",0.04244123032235559,4.2848059144756085,0.009905053150476179
+6,G47,"Perakende ticaret (motorlu kara taşıtları ve motosikletler hariç) Retail trade services, except of motor vehicles and motorcycles",0.03856311666246081,2.717715741020591,0.014189532805214978
+7,I,Konaklama ve yiyecek hizmetleri Accommodation and food services,0.03710110389224425,3.028974266247817,0.01224873525855462
+8,Q86,İnsan sağlığı hizmetleri Human health services,0.029916824416788973,2.6459584477957256,0.011306611576501455
+9,C29,"Motorlu kara taşıtları, treyler (römork) ve yarı treyler (yarı römork) Motor vehicles, trailers and semi-trailers",0.02960626280544499,2.317779943526049,0.012773543445373355
+10,G46,"Toptan ticaret, motorlu kara taşıtları ve motosikletler hariç Wholesale trade services, except of motor vehicles and motorcycles",0.029561077261058322,3.6435063721150054,0.008113359561355322
+11,O84,Kamu yönetimi ve savunma hizmetleri; zorunlu sosyal güvenlik hizmetleri Public administration and defence services; compulsory social security services,0.024554445915487996,2.109161814481839,0.01164180279905187
+12,C24,Ana metaller Basic metals,0.0238618320920618,1.2452350572415645,0.019162512292996595
+13,P85,Eğitim hizmetleri Education services,0.019154635050185737,1.8537512537555298,0.01033290470411292
+14,C28,Başka yerde sınıflandırılmamış makine ve ekipmanlar Machinery and equipment n.e.c.,0.01761579411589322,1.6704871667370484,0.010545303469946456
+15,C25,"Fabrikasyon metal ürünler, makine ve ekipmanlar hariç Fabricated metal products, except machinery and equipment",0.015632607559441042,1.2011293332446495,0.013014924477127016
+16,H49,Kara taşımacılığı ve boru hattı taşımacılığı hizmetleri Land transport services and transport services via pipelines,0.014701799952528098,2.9482852184528894,0.0049865595975964825
+17,C22,Kauçuk ve plastik ürünler Rubber and plastic products,0.013920496501333857,0.7218718302820895,0.01928388935178988
+18,C23,Diğer metalik olmayan mineral ürünleri Other non-metallic mineral products,0.013574212929338789,0.3904512201715051,0.034765451426624655
+19,C31_C32,Mobilya ve diğer mamul eşyalar Furniture and other manufactured goods,0.011154230679545444,1.116551702280074,0.009989891786262787
+20,E36,Doğal su; suyun arıtılması ve temini hizmetleri Natural water; water treatment and supply services,0.01004696325063554,0.30288665500230294,0.03317070291709996
+21,C27,Elektrikli teçhizat Electrical equipment,0.009997082412705008,1.131153328679266,0.008837955173042363
+22,A01,"Tarım ve avcılık ürünleri ve ilgili hizmetler Products of agriculture, hunting and related services",0.00935593666873233,2.3066080437108814,0.004056144993616019
+23,K64,"Finansal hizmetler (sigorta ve bireysel emeklilik hariç) Financial services, except insurance and pension funding",0.008902539565764393,0.6180341167491031,0.014404608620301238
+24,J61,Telekomünikasyon hizmetleri Telecommunications services,0.00794753729455616,0.2907431640706742,0.027335250752875014
+25,C17,Kağıt ve kağıt ürünleri Paper and paper products,0.0075427159821023415,0.4116783522078994,0.018321866917824323
+26,C30,Diğer ulaşım araçları Other transport equipment,0.007464631052452521,0.7109841607738332,0.01049901174215757
+27,H51,Hava yolu taşımacılığı hizmetleri Air transport services,0.0074098353910270025,1.1619156859805249,0.006377257386601114
+28,B,Madencilik ve taşocakçılığı Mining and quarrying,0.006621878365924971,0.2966191955225906,0.02232451057072821
+29,C19,Kok ve rafine petrol ürünleri Coke and refined petroleum products,0.005397973462096572,0.7253411485728293,0.007441978816061306
+30,G45,Toptan ve perakende ticaret ile motorlu kara taşıtlarının ve motosikletlerin onarım hizmetleri Wholesale and retail trade and repair services of motor vehicles and motorcycles,0.005231877897048169,1.2224024649183023,0.004279996193723181
+31,C20,Kimyasallar ve kimyasal ürünler Chemicals and chemical products,0.004363407637155268,0.9699338369238808,0.004498665239882443
+32,H52,"Depolama ve destek hizmetleri, taşımacılık için Warehousing and support services for transportation",0.004342302141084697,0.3944840203499045,0.011007548891924967
+33,R93,Spor hizmetleri ile eğlence ve dinlence hizmetleri Sporting services and amusement and recreation services,0.003893156666406261,0.25096331034530955,0.015512851902732416
+34,N79,"Seyahat acentesi, tur operatörü, diğer rezervasyon hizmetleri ve ilgili hizmetler Travel agency, tour operator and other reservation services and related services",0.003463838742417428,0.47588334696910134,0.007278755948235213
+35,C33,Makine ve ekipmanların kurulumu ve onarımı Repair and installation services of machinery and equipment,0.003436360434513035,0.37245579240615795,0.009226223633986959
+36,L68A,Kendi konutunda ikamet edenler için izafi kira Imputed rents of owner-occupied dwellings,0.0032344180572190136,1.9509924087553203,0.0016578322102659966
+37,K66,Finansal hizmetler ile sigorta hizmetlerine yardımcı hizmetler Services auxiliary to financial services and insurance services,0.0028847914724098285,0.1863298849611527,0.015482172776585298
+38,R90-R92,"Yaratıcı sanatlar, gösteri sanatları ve eğlence hizmetleri; kütüphane, arşiv, müze ve diğer kültürel hizmetler; kumar ve müşterek bahis hizmetleri Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",0.002828136638581157,0.6970649537873909,0.004057206754140958
+39,C26,"Bilgisayarlar ile elektronik ve optik ürünler Computer, electronic and optical products",0.0021865731611313793,0.19744384544761487,0.011074405262794141
+40,M72,Bilimsel araştırma ve geliştirme hizmetleri Scientific research and development services,0.0021730521672262007,0.738359507037922,0.002943081448146903
+41,M71,Mimarlık ve mühendislik hizmetleri; teknik test ve analiz hizmetleri Architectural and engineering services; technical testing and analysis services,0.002154724474206453,0.18056164791204168,0.0119334559643369
+42,C16,"Kereste, ağaç ürünleri ve mantar ürünleri (mobilya hariç); hasır ve örme malzemesinden (saz, saman vb.) ürünler Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",0.0019112315767617271,0.11587453648548654,0.016493973868030202
+43,H50,Su yolu taşımacılığı hizmetleri Water transport services,0.001865396345287916,0.3872691502251249,0.004816795616701034
+44,S96,Diğer kişisel hizmetler Other personal services,0.001724679546110199,0.20261978458971172,0.008511900995268218
+45,C21,Temel eczacılık ürünleri ve müstahzarları Basic pharmaceutical products and pharmaceutical preparations,0.0016953852091340775,0.23583864634861734,0.007188750594454966
+46,H53,Posta ve kurye hizmetleri Postal and courier services,0.0015936709938929668,0.12789994697861537,0.012460294406216021
+47,A03,Balık ve diğer balıkçılık ürünleri; su ürünleri; balıkçılık için destekleyici hizmetler Fish and other fishing products; aquaculture products; support services to fishing,0.001435367518210311,0.1380730523595174,0.010395710775429749
+48,S94,Üye olunan kuruluşlar tarafından verilen hizmetler Services furnished by membership organisations,0.0013177959371118346,0.24412273865831072,0.00539808763556558
+49,Q87_Q88,Yatılı bakım hizmetleri; barınacak yer sağlanmaksızın verilen sosyal hizmetler Residential care services; social work services without accommodation,0.001216270305008405,0.14039302615316954,0.008663324228665373
+50,J62_J63,"Bilgisayar programlama, danışmanlık ve ilgili hizmetler; bilgi hizmetleri Computer programming, consultancy and related services; Information services",0.0010167829840471152,0.605392793681823,0.0016795425955821784
+51,M69_M70,Hukuk ve muhasebe hizmetleri; idare merkezi hizmetleri; idari danışmanlık hizmetleri Legal and accounting services;Services of head offices; management consulting services,0.0008742393805278751,0.11088351706832507,0.007884304210779854
+52,E37-E39,"Kanalizasyon hizmetleri, kanalizasyon çamuru; atığın toplanması, işlenmesi ve bertarafı; maddelerin geri kazanımı; iyileştirme hizmetleri ve diğer atık yönetimi hizmetleri Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other wa...",0.0008367002427815856,0.14121749901068667,0.005924904835754584
+53,J58,Yayıncılık hizmetleri Publishing services,0.000831487925601878,0.0967875065261687,0.008590860075283233
+54,K65,"Sigorta, reasürans ve emeklilik fonları hizmetleri, zorunlu sosyal güvenlik hariç Insurance, reinsurance and pension funding services, except compulsory social security",0.0006861520087300408,0.36574957036493305,0.0018760158981059652
+55,J59_J60,"Sinema filmi, video ve televizyon programı yapımcılık hizmetleri, ses kaydı ve müzik yayımlama; programcılık ve yayıncılık hizmetleri Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",0.0006163030185685796,0.1303874409396956,0.004726705379957728
+56,N80-N82,"Güvenlik ve soruşturma hizmetleri; bina ve çevre düzenleme (peyzaj) hizmetleri; büro yönetimi, büro destek ve diğer iş destek hizmetleri Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",0.00038484189087168824,0.047517618352298875,0.008098930548632385
+57,S95,"Bilgisayarların, kişisel eşyaların ve ev eşyalarının onarımına ilişkin hizmetler Repair services of computers and personal and household goods",0.00036256760193954644,0.08409523720903213,0.004311392820479557
+58,M74_M75,"Diğer mesleki, bilimsel ve teknik hizmetler; veterinerlik hizmetleri Other professional, scientific and technical services and veterinary services",0.00026479525066865637,0.05471268550615089,0.004839741427769756
+59,N78,İstihdam hizmetleri Employment services,0.0002483762452627104,0.38779076691252845,0.0006404903531876381
+60,N77,Kiralama ve leasing hizmetleri Rental and leasing services,0.0001700068437580863,0.045012491006813704,0.0037768814823501266
+61,A02,"Orman ürünleri ve ilgili hizmetler Products of forestry, logging and related services",0.0001426574462417897,0.04168602073652538,0.003422189110912017
+62,M73,Reklamcılık ve pazar araştırması hizmetleri Advertising and market research services,0.00011018955000839018,0.018445467504973386,0.00597380087973808
+63,C18,Basım ve kayıt hizmetleri Printing and recording services,8.712029459035392e-05,0.004626130456847355,0.018832217422965893
+64,T,Ev içi çalışan personelin işverenleri olarak hanehalklarının hizmetleri Services of households as employers; undifferentiated goods and services produced by households for own use,0.0,0.03262101961464163,0.0
