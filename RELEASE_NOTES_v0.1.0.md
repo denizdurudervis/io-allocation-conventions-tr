@@ -15,7 +15,4 @@ Included:
 Not included:
 - raw TÜİK workbooks;
 - superseded v1/v2 outputs;
-- the AI-assisted teaching manuscript;
-- the author's final paper.
-
-The scientific model should not be extended before the author has learned the frozen study and written the paper independently.
+- the manuscript (in preparation).

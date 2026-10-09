@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: "Derviş"
     given-names: "Deniz Duru"
-version: "0.1.0"
-date-released: "2026-08-21"
+version: "0.1.1"
+date-released: "2026-10-09"
 repository-code: "https://github.com/denizdurudervis/io-allocation-conventions-tr"
 keywords:
   - input-output analysis

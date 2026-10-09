@@ -1,9 +1,9 @@
 # io-allocation-conventions-tr
 
 **Technical status:** complete and frozen  
-**Manuscript status:** in preparation
+**Manuscript status:** in preparation.
 
-This is a reproducible case study of how allocation conventions affect sectoral final-demand coverage under a binding capacity restriction in a fixed domestic Leontief input-output system, using the 2023 Türkiye A64 domestic product-by-product table.
+A reproducible case study of how allocation conventions shape sectoral final-demand coverage under a binding capacity restriction in a fixed domestic Leontief input-output system, using the 2023 Türkiye A64 domestic product-by-product table.
 
 ## Research question
 
@@ -180,9 +180,7 @@ Only **corrected v3** is authoritative.
 
 ## Manuscript
 
-A prior AI-assisted teaching draft is deliberately excluded from this public repository.
-
-The final manuscript is intended to be written by the author after independently learning and reconstructing the project logic.
+A manuscript based on this study is in preparation.
 
 ## License
 
