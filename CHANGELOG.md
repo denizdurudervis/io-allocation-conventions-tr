@@ -13,4 +13,4 @@
 - four figures included;
 - Figure 4 corrected so local perturbation and convention-sensitivity experiments are not visually joined;
 - novelty and claims audits included;
-- AI-assisted teaching manuscript intentionally excluded from the public repository.
+
