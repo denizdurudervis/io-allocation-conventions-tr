@@ -50,6 +50,6 @@ Completion date: 19 Aug 2026
 - Pharma/false-redundancy work.
 - Additional robustness experiments beyond the frozen design.
 
-The existing manuscript v0.1 is retained only as a teaching/context draft and must be rewritten by the author after she learns the project.
+A manuscript based on this frozen study is in preparation.
 
 STATUS: TECHNICALLY COMPLETE
